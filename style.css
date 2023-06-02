@@ -1,12 +1,11 @@
-body {
-	font-family: linotype;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer components {
+  /* Tambahkan gaya tambahan di sini */
 }
 
-.jumbotron {
-	padding-top: 2rem;
-	background-color: #e2edff;
-}
-
-#project, #contact {
-	background-color: #e2edff;
+@layer utilities {
+  /* Tambahkan utilitas tambahan di sini */
 }
