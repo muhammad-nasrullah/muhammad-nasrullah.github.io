@@ -202,7 +202,7 @@ nav {
 }
 
 .featured-name {
-  font-size: 50px;
+  font-size: 35px;
   font-weight: 600;
   color: var(--text-color-second);
   margin-block: 20px;
@@ -405,7 +405,7 @@ h3 {
   display: flex;
   width: 100%;
   justify-content: center;
-  gap: 50px;
+  gap: 40px;
   flex-wrap: wrap;
 }
 
@@ -415,8 +415,8 @@ h3 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 80%;
-  height: 500px;
+  width: 45%;
+  height: 400px;
   background: var(--color-white);
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -430,8 +430,15 @@ h3 {
 }
 
 .project-box label {
-  font-size: 15px;
+  font-size: px;
   color: #777;
+}
+
+.project-box span {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  color: #0a0a0a;
 }
 
 /* .project-box::after, */
@@ -710,7 +717,7 @@ footer {
 
 @media only screen and (max-width: 540px) {
   .featured-name {
-    font-size: 40px;
+    font-size: 50px;
   }
 
   .project-box {
